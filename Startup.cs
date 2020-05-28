@@ -29,10 +29,19 @@ namespace DotNetCorePostgre
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<UserContext>(options => options.UseNpgsql(
-                Configuration.GetConnectionString("ConnectionStringsPostgresql"),
-                b => b.MigrationsAssembly("DotNetCorePostgre")
-            ));
+            var connectionString = Configuration["PostgreSql:ConnectionString"];
+            var dbPassword = Configuration["PostgreSql:DbPassword"];
+            
+            var builder = new Npgsql.NpgsqlConnectionStringBuilder(Configuration.GetConnectionString("ConnectionStringsPostgresql"))
+            {
+                Host = "85.95.241.63",
+                Password = "test123ASD!",
+                Port = 5432,
+                Database = "test_1",
+                Username = "postgres",
+            };
+
+            services.AddDbContext<ApplicationContext>(options => options.UseNpgsql(builder.ConnectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
