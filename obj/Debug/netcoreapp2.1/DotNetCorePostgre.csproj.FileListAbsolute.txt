@@ -1,0 +1,11 @@
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\bin\Debug\netcoreapp2.1\DotNetCorePostgre.deps.json
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\bin\Debug\netcoreapp2.1\DotNetCorePostgre.runtimeconfig.json
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\bin\Debug\netcoreapp2.1\DotNetCorePostgre.runtimeconfig.dev.json
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\bin\Debug\netcoreapp2.1\DotNetCorePostgre.dll
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.csprojAssemblyReference.cache
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.csproj.CoreCompileInputs.cache
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.RazorAssemblyInfo.cache
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.RazorAssemblyInfo.cs
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.AssemblyInfoInputs.cache
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.AssemblyInfo.cs
+C:\Users\esef.berfu\Projects\_TestProjects\DotNetCorePostgre\obj\Debug\netcoreapp2.1\DotNetCorePostgre.RazorTargetAssemblyInfo.cache
